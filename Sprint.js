@@ -10,5 +10,4 @@
     El usuario debe de escoger si
 */
 
-
-val Msj = ""
+var Msj = prompt("Ingresa el texto aqui")
