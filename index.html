@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challengeonecodificador</title>
+    <link href="main.css" rel="stylesheet">
 </head>
+
 <body>
-    <main>
+    <h1>Encriptador</h1>
+    <form>
+        <input type="text" value="Ingrese texto aqui" id="texto-input">
+        <input type="text" value="Ingrese texto aqui" name="texto" id="texto">
+        <input type="submit" value="Encriptar" onclick="EncriptarTxt()">
+        <input type="submit" value="Desencriptar" onclick="DesencriptarTxt()">
+    </form>
+    <div id="resultado">
+        <p id="textOut"></p>
+        <p id="texto-output"></p>
+    </div>
 
-
-    </main>
-    
 </body>
 <script src="Sprint.js"></script>
 </html>
