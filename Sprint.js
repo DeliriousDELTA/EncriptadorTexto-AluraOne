@@ -12,24 +12,12 @@
 
 function EncriptarTxt(){
     var MSG = document.getElementById('texto').value;
-    for(i=0;i==MSG.length;i++){
-        if (MSG[i]=="a"){
-            MSG[i]="ai"
-        }else
-        if (MSG[i]=="e"){
-            MSG[i]="enter"
-        }else
-        if (MSG[i]=="i"){
-            MSG[i]="imes"
-        }else
-        if (MSG[i]=="o"){
-            MSG[i]="ober"
-        }else
-        if (MSG[i]=="u"){
-            MSG[i]="ufat"
-        }
-    }
-    document.getElementById("textOut").innerHTML = MSG
+    MSG = MSG.replaceAll('a','ai');
+    MSG = MSG.replaceAll('e','enter');
+    MSG = MSG.replaceAll('i','imes');
+    MSG = MSG.replaceAll('o','ober');
+    MSG = MSG.replaceAll('u','ufat');
+    document.getElementById("textOut").innerHTML = MSG;
 }
 
 function DesencriptarTxt(){
