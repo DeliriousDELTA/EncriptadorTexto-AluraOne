@@ -10,18 +10,22 @@
 </head>
 
 <body>
-    <h1>Encriptador</h1>
-    <form>
-        <input type="text" value="imesngrentersenter tenterxtober aiqufatimes" id="textoDesencriptar">
-        <input type="text" value="ingrese texto aqui" id="textoEncriptar">
-        <input type="submit" value="Encriptar" onclick="EncriptarTxt()">
-        <input type="submit" value="Desencriptar" onclick="DesencriptarTxt()">
-    </form>
-    <div id="resultado">
-        <p id="textOut"></p>
-        <p id="texto-output"></p>
+    
+    <div>
+        <h1>Encriptador</h1>
+        <p>*Para encirptar debe de introducir solo minusculas y sin acentos</p>
     </div>
 
+    <div>
+        <input type="text" value="imesngrentersenter tenterxtober aiqufatimes" id="InputText">
+        <input type="submit" value="E" onclick="EncriptarTxt()">
+        <input type="submit" value="D" onclick="DesencriptarTxt()">
+    </div>
+    <div id="resultado">
+        <p id="textOut"> Aun no has ingresado nungun mensaje</p>
+        <button>C</button>
+    </div>
+    <script src="Sprint.js"></script>
 </body>
-<script src="Sprint.js"></script>
+
 </html>

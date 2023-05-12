@@ -11,18 +11,18 @@
 */
 
 function EncriptarTxt(){
-    var MSG = document.getElementById('textoEncriptar').value;
+    var MSG = document.getElementById('InputText').value;
     MSG = MSG.replaceAll('a','ai');
     MSG = MSG.replaceAll('e','enter');
     MSG = MSG.replaceAll('i','imes');
     MSG = MSG.replaceAll('o','ober');
     MSG = MSG.replaceAll('u','ufat');
-    document.getElementById("texto-output").innerHTML = MSG;
+    document.getElementById("textOut").innerHTML = MSG;
 }
 
 function DesencriptarTxt(){
     
-    var MSG = document.getElementById('textoDesencriptar').value;
+    var MSG = document.getElementById('InputText').value;
     MSG = MSG.replaceAll('ai','a');
     MSG = MSG.replaceAll('enter','e');
     MSG = MSG.replaceAll('imes','i');
