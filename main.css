@@ -45,3 +45,31 @@ top: 0px;
 
 background: #EBF2F2;
 }
+.btnEncriptar{
+width: 3em;
+height: 3em;
+  
+background: #838689;
+box-shadow: inset 3px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.btnDesencriptar{
+  width: 3em;
+  height: 3em;
+    
+  background: #D0F2E7;
+  box-shadow: inset 3px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  
+}
+.txtInputBox{
+  position: absolute;
+  width: 648px;
+  height: 370px;
+  left: 68px;
+  top: 243px;
+
+  font-family: 'Khmer';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 55px;
+}
